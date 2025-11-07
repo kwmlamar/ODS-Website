@@ -1,12 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
-
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
